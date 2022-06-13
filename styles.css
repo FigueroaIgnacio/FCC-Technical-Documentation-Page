@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+:root {
+    --color-principal: #302B63; 
+    --color-fondo-ejemplos-codigo: #f7f7f7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav__bar {
+    width: 100%;
+    max-height: 230px;
+    overflow: hidden scroll;
+    background-color: var(--color-principal);
+    color: #fff;
+}
+
+.titulo__nav--header {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista__nav--bar {
+    list-style: none;
+    padding: 5px;
+}
+
+.item__lista--nav {
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-link {
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.titulo__descripcion--articulo {
+    font-size: 25px;
+    padding: 15px;
+}
+
+.articulo {
+    width: 100%;
+}
+
+.parrafo__articulo {
+    margin-left: 30px;
+    margin: 10px;
+}
+
+.lista__desordenada--articulo {
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.item__articulo {
+    text-align: left;
+    margin: 5px;
+}
+
+.contenedor__ejemplo--codigo {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--color-fondo-ejemplos-codigo);
+    border-radius: 10px;
+}
+
+.ejemplo__codigo {
+    margin: 15px;
+}
+
+.contenedor__img{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.img__operadores--logicos{
+    max-width: 400px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 815px) {
+    .nav__bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 300px;
+        max-height: 100%;
+      
+    }
+
+    .lista__nav--bar {
+        list-style: none;
+        border: none;
+    }
+
+    .item__lista--nav{
+        padding: 20px;
+       
+        transition: .2s ease-in-out; 
+    }
+
+    .item__lista--nav:hover{
+        transform: scale(120%);
+        cursor: pointer;
+    }
+
+    .main__doc{
+        position: absolute;
+        margin-left: 310px;
+        padding: 20px;
+        margin-bottom: 110px;
+    }
+
+    .parrafo__articulo{
+        margin-left: 40px;
+    }
+    
+    .contenedor__img{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+
+}

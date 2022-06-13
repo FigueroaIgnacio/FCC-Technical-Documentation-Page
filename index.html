@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="nav__bar" id="navbar">
+        <header class="titulo__nav--header">Documentación de Python</header>
+        <ul class="lista__nav--bar">
+            <li class="item__lista--nav"><a class="nav-link" href="#Introducción">Introducción</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Lo_que_necesitas_para_aprender_Python">Lo que
+                    necesitas para aprender Python</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Hello_World">Hello World</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Variables">Variables</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Como_declarar_variables">Como declarar variables</a>
+            </li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Constantes">Constantes</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Como_declarar_constantes">Como declarar
+                    constantes</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Tipos_de_datos">Tipos de datos</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Listas,_tuplas_y_diccionarios">Listas, tuplas y
+                    diccionarios</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Condicionales">Condicionales</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Bucle_For">Bucle For</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Bucle_While">Bucle While</a></li>
+            <li class="item__lista--nav"><a class="nav-link" href="#Referencia">Referencia</a></li>
+        </ul>
+    </nav>
+    <main class="main__doc" id="main-doc">
+        <section class="main-section" id="Introducción">
+            <header class="titulo__descripcion--articulo">Introducción</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">Python es un lenguaje de programación de alto nivel que se utiliza para
+                    desarrollar aplicaciones de todo tipo. A diferencia de otros lenguajes como Java o .NET, se trata de
+                    un lenguaje interpretado, es decir, que no es necesario compilarlo para ejecutar las aplicaciones
+                    escritas en Python, sino que se ejecutan directamente por el ordenador utilizando un programa
+                    denominado interpretador, por lo que no es necesario “traducirlo” a lenguaje máquina.</p>
+                <p class="parrafo__articulo">Python es un lenguaje sencillo de leer y escribir debido a su alta
+                    similitud con el lenguaje humano. Además, se trata de un lenguaje multiplataforma de código abierto
+                    y, por lo tanto, gratuito, lo que permite desarrollar software sin límites. Con el paso del tiempo,
+                    Python ha ido ganando adeptos gracias a su sencillez y a sus amplias posibilidades, sobre todo en
+                    los últimos años, ya que facilita trabajar con inteligencia artificial, big data, machine learning y
+                    data science, entre muchos otros campos en auge.</p>
+                <p class="parrafo__articulo">Python se utiliza en varios sectores del desarrollo, a continuación te dejo
+                    algunos:</p>
+                <ul class="lista__desordenada--articulo">
+                    <li class="item__articulo">Data analytics y big data.</li>
+                    <li class="item__articulo">Data mining.</li>
+                    <li class="item__articulo">Data science.</li>
+                    <li class="item__articulo">Inteligencia artificial.</li>
+                    <li class="item__articulo">Blockchain.</li>
+                    <li class="item__articulo">Machine learning.</li>
+                    <li class="item__articulo">Desarrollo web.</li>
+                    <li class="item__articulo">Juegos y gráficos 3D.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Lo_que_necesitas_para_aprender_Python">
+            <header class="titulo__descripcion--articulo">Lo que necesitas para aprender Python</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">Hay algunas cosas que necesitas para poder aprender a programar en Python,
+                    o mas bien aprender a programar:</p>
+                <ul class="lista__desordenada--articulo">
+                    <li class="item__articulo">Una computadora.</li>
+                    <li class="item__articulo">Un editor de código.</li>
+                    <li class="item__articulo">Conexión a Internet.</li>
+                    <li class="item__articulo">Ganas y paciencia.</li>
+                </ul>
+                <p class="parrafo--articulo">Empecemos!</p>
+            </article>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header class="titulo__descripcion--articulo">Hello World</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">No serías un programador de primera sin haber hecho tu primer "Hello
+                    World".</p>
+                <p class="parrafo__articulo">A continuación te dejo el ejemplo en código:</p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        print('Hello World')
+                    </code>
+                </div>
+                <p class="parrafo__articulo">Por lo general esto se hace para ver si todo va correctamente.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Variables">
+            <header class="titulo__descripcion--articulo">Variables</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">Todos conocemos las variables en matemáticas, pero aquí vas a encontrar la
+                    definición de lo que es una "variable" en programación.</p>
+                <p class="parrafo__articulo">Podemos entender a una variable en programación como una caja que guarda
+                    valores, tipos de datos (que ya vamos a llegar a esa parte en otro articulo) y cambiar esos valores
+                    cuándo quieramos o cuándo sea necesario.</p>
+                <p class="parrafo__articulo">Cuándo escribimos código las variables sirven para guardar datos como
+                    mencionamos anteriormente, para asignar valores de una variable a otra, para representar valores
+                    dentro de una expresión matemática y mostrar los valores en pantalla.</p>
+                <p class="parrafo__articulo">Existen ciertas palabras que tienen significado especial para el intérprete
+                    de Python. Estas no
+                    pueden utilizarse para ningún otro fin (como ser nombrar valores) excepto para el que han sido
+                    creadas como por ejemplo el if, else, elif, while, for, is, and, or, etc.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Como_declarar_variables">
+            <header class="titulo__descripcion--articulo">Como declarar variables</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">Declarar variables es sencillo, pero la asignación de las variables en
+                    programación tiene sus reglas
+                    y sus prácticas</p>
+                <p class="parrafo__articulo">Una variable puede iniciar con una letra, tanto mayúscula como minúscula o
+                    con un guión bajo (_).</p>
+                <p class="parrafo__articulo">También existen las llamadas nomenclaturas de variables, es decir, la forma
+                    en la que identificamos una
+                    variable</p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        <p>camelCase</p>
+                        miVariable = "Valor"
+                    </code>
+                    <code class="ejemplo__codigo">
+                        <p>snake_case</p>
+                        mi_variable = "Valor" 
+                    </code>
+                    <code class="ejemplo__codigo">
+                        <p>kebab-case</p>
+                        mi-variable = "Valor"
+                    </code>
+                </div>
+                <p class="parrafo__articulo">Existen más nomenclaturas, y sirven para darles sentido a la variable
+                    además de darle un mayor comprendimiento a la hora de leer el código, elige la que te parezca más
+                    cómoda.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Constantes">
+            <header class="titulo__descripcion--articulo">Constantes</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">Las constantes son iguales que las variables con la única diferencia de que
+                    es un tipo de variable la cual no puede ser cambiada. Eso es muy de ayuda pensar las constantes como
+                    contenedores que contienen información el cual no puede ser cambiado después.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Como_declarar_constantes">
+            <header class="titulo__descripcion--articulo">Como declarar constantes</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">En Python, las constantes son usualmente declaradas y asignadas en un
+                    módulo. Aquí, el módulo significa un nuevo archivo que contiene variables, funciones, etc; el cual
+                    es importada en el archivo principal. Dentro del módulo, las constantes son escritas en letras
+                    MAYÚSCULAS y separadas las palabras con un guión bajo (_).</p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        <p>Ejemplo de una variable constante:</p>
+                        MIVARIABLE = "Valor"
+                    </code>
+                </div>
+                <p class="parrafo__articulo">Vuelvo a recalcar que en una variable constante se deben guardar datos que
+                    no van a cambiar, como por
+                    ejemplo la fecha de tu cumpleaños:</p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        MICUMPLEAÑOS = "4 de Marzo"
+                    </code>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Tipos_de_datos">
+            <header class="titulo__descripcion--articulo">Tipos de datos</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">En programación, existen tipos de datos, a continuaciónte dejo los más
+                    usados:</p>
+                <ul class="lista__desordenada--articulo">
+                    <li class="item__articulo">Número entero (int)</li>
+                    <li class="item__articulo">Número decimal (float)</li>
+                    <li class="item__articulo">Cadena de texto (str)</li>
+                    <li class="item__articulo">Caracter (chr)</li>
+                    <li class="item__articulo">Dato booleano (bool)</li>
+                    <li class="item__articulo">Listas (list)</li>
+                    <li class="item__articulo">Tuplas (tuple)</li>
+                    <li class="item__articulo">Diccionarios (dict)</li>
+                </ul>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        <p>Variable de tipo int</p>
+                        miEdad = 18 -> Número entero
+                    </code>
+                    <code class="ejemplo__codigo">
+                        <p>Variable de tipo float</p>
+                        PI = 3.1415 -> Número decimal
+                    </code>
+                    <code class="ejemplo__codigo">
+                        <p>variable de tipo str</p>
+                        miNombre = "Ignacio" -> podes definir una variable de tipo str tanto con comillas dobles ("") como con comillas simples ('')
+                    </code>
+                    <code class="ejemplo__codigo">
+                        <p>Variable de tipo chr</p>
+                        miInicial = 'I' -> Caracter
+                    </code>
+                    <code class="ejemplo__codigo">
+                        <p>Variable tipo bool</p>
+                        lucesPrendidas = True -> Los valores booleanos son True y False (Verdadero o Falso)
+                    </code>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Listas,_tuplas_y_diccionarios">
+            <header class="titulo__descripcion--articulo">Listas, tuplas y diccionarios</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">Las listas (list) son estructuras de datos que pueden almacenar cualquier
+                    otro tipo de dato,
+                    inclusive una lista puede contener otra lista, además, la cantidad de elementos de una lista se
+                    puede modificar removiendo o añadiendo elementos. Para definir una lista se utilizan los corchetes,
+                    dentro de estos se colocan todos los elementos separados por comas:</p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        nombresDeAlumnos = [Miguel, Thiago, Ignacio, Valentin, Gonzalo]
+                    </code>
+                </div>
+                <p class="parrafo__articulo">Las tuplas (tuple) son secuencias de elementos similares a las listas, la
+                    diferencia principal es que las tuplas no pueden ser modificadas directamente, es decir, una tupla
+                    no dispone de los métodos como append o insert que modifican los elementos de una lista.</p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        nombresDeAlumnas = (Azul, Abigail, Mayra, Jazmin, Paula)
+                    </code>
+                </div>
+                <p class="parrafo__articulo">Los diccionario (dict) son estructuras que contienen una colección de
+                    elementos de la forma clave: valor separados por comas y encerrados entre llaves. Las claves deben
+                    ser objetos inmutables y los valores pueden ser de cualquier tipo. Necesariamente las claves deben
+                    ser únicas en cada diccionario, no así los valores.</p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        edadesDeAlumnos = {"Miguel": 18, "Thiago": 18, "Ignacio": 18, "Gonzalo": 20, "Valentin": 19}
+                    </code>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Condicionales">
+            <header class="titulo__descripcion--articulo">Condicionales</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">Una sentencia condicional consiste básicamente en las siguientes partes
+                    principales:</p>
+                <ul class="lista__desordenada--articulo">
+                    <li class="item__articulo">Una prueba que evalúa a verdadero o falso.</li>
+                    <li class="item__articulo">Un bloque de código que se ejecuta si la prueba es verdadero.</li>
+                    <li class="item__articulo">Un bloque opcional de código si la prueba es falsa.</li>
+                </ul>
+                <p class="parrafo__articulo">Para poder crear condicionales, tenemos que saber usar los operadores de
+                    comparación</p>
+                <div class="contenedor__img">
+                    <img class="img__operadores--logicos" src="http://facialix.com/images/cond.png" alt="Ejemplos de operadores de comparación">
+                </div>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        edad = int(input('¿Cuantos años tenés?'))
+                    
+                        if edad &gt; 0 and edad &lt; 18:
+                            print('Usted es menor de edad.')
+                        elif edad &gt;= 18 and edad &lt; 100:
+                            print('Usted es mayor de edad.')
+                        else:
+                            print('Ha ingresado una edad inválida.')
+                    </code>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Bucle_For">
+            <header class="titulo__descripcion--articulo">Bucle For</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">
+                    El bucle for se utiliza para recorrer los elementos de un objeto iterable (lista, tupla, conjunto,
+                    diccionario) y ejecutar un bloque de código. En cada paso de la iteración se tiene en cuenta a un
+                    único elemento del objeto iterable, sobre el cuál se pueden aplicar una serie de operaciones.
+                </p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        nums = [4, 78, 9, 84]
+                        for n in nums:
+                            print(n)
+                    </code>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Bucle_While">
+            <header class="titulo__descripcion--articulo">Bucle While</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">
+                    Python utiliza el bucle while de forma similar a otros lenguajes populares. El bucle while evalúa
+                    una condición y luego ejecuta un bloque de código si la condición es verdadera. El bloque de código
+                    se ejecuta repetidamente hasta que la condición llega ser o es falsa.
+                </p>
+                <div class="contenedor__ejemplo--codigo">
+                    <code class="ejemplo__codigo">
+                        dia = 0    
+                        semana = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+                        while dia &lt; 7:
+                            print("Hoy es " + semana[dia])
+                            dia += 1
+                    </code>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Referencia">
+            <header class="titulo__descripcion--articulo">Referencia</header>
+            <article class="articulo">
+                <p class="parrafo__articulo">Esta documentación solamente recalca lo mas básico del lenguaje, si te
+                    interesa aprender más del
+                    lenguaje te recomiendo que hagas <a href="#">Click aquí</a> para leer más sobre este hermoso
+                    lenguaje. Te recomiendo que investigues por tu cuenta y practiques, practiques y practiques.
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
